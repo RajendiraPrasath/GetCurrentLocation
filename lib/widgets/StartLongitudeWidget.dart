@@ -18,10 +18,10 @@ class _StartLongitudeState extends State<StartLongitude> {
       child: TextFormField(
         controller: startingLongitudeController,
         decoration: const InputDecoration(
-            border: OutlineInputBorder(), labelText: "Starting Longitude"),
+            border: OutlineInputBorder(), labelText: "Source Lon"),
         validator: (value) {
           if (value == null || value.isEmpty) {
-            return 'Please enter Starting Longitude';
+            return 'Please enter Source Longitude';
           }
           return null;
         },

@@ -20,10 +20,10 @@ class _StartLatitudeState extends State<StartLatitude> {
         controller: startingLatitudeController,
         keyboardType: TextInputType.number,
         decoration: const InputDecoration(
-            border: OutlineInputBorder(), labelText: "Starting Latitude"),
+            border: OutlineInputBorder(), labelText: "Source Lat"),
         validator: (value) {
           if (value == null || value.isEmpty) {
-            return 'Please enter Starting Latitude';
+            return 'Please enter Source Latitude';
           }
           return null;
         },
