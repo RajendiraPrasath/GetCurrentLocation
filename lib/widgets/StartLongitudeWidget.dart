@@ -17,6 +17,7 @@ class _StartLongitudeState extends State<StartLongitude> {
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
       child: TextFormField(
         controller: startingLongitudeController,
+        keyboardType: TextInputType.number,
         decoration: const InputDecoration(
             border: OutlineInputBorder(), labelText: "Source Lon"),
         validator: (value) {

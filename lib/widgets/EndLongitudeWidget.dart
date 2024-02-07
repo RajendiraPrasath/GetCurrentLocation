@@ -17,6 +17,7 @@ class _EndLongitudeState extends State<EndLongitude> {
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
       child: TextFormField(
         controller: endingLongitudeController,
+        keyboardType: TextInputType.number,
         decoration: const InputDecoration(
             border: OutlineInputBorder(), labelText: "Destination Lon"),
         validator: (value) {
